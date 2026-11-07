@@ -15,13 +15,14 @@ Each metric scores 0 for no flag, 1 for a moderate flag, or 2 for a stronger fla
 
 ##Example
 In this demo, I used FCX and SCCO, I got the following result: 
- year ticker  metrics_scored  risk_score  risk_rank
- 2023    FCX               2        <NA>       <NA>
- 2023   SCCO               2        <NA>       <NA>
- 2024    FCX               6           1          1
- 2024   SCCO               6           0          2
- 2025    FCX               6           4          1
- 2025   SCCO               6           3          2
+| Year | Ticker | Metrics scored | Risk score | Risk rank |
+|---:|:---|---:|---:|---:|
+| 2023 | FCX  | 2 | NA | NA |
+| 2023 | SCCO | 2 | NA | NA |
+| 2024 | FCX  | 6 | 1 | 1 |
+| 2024 | SCCO | 6 | 0 | 2 |
+| 2025 | FCX  | 6 | 4 | 1 |
+| 2025 | SCCO | 6 | 3 | 2 |
 
  ## Result interpretation
 
